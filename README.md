@@ -1,2 +1,2 @@
-# SoftUni-September2021-Exercises
+# SoftUni-JavaScript-Advanced
 exercises from my softuni education
