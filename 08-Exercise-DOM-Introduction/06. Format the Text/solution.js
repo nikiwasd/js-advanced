@@ -1,7 +1,6 @@
 function solve() {
   let input = document.getElementById("input").value;
   let output = document.getElementById("output");
-  let result = "";
 
   let splittedInput = input.split(".");
   for (let i = 0; i < splittedInput.length; i++) {
@@ -9,9 +8,11 @@ function solve() {
       if(splittedInput[i] === "") {
         break;
       }
-      result += `<p>${splittedInput[i]}.</p>`;
+
+      let p = document.createElement("p");
+      p.textContent = splittedInput[i] + ".";
+      output.appendChild(p);
     }
   }
 
-  output.innerHTML = result;
 }
