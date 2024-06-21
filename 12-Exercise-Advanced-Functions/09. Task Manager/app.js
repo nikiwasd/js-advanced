@@ -1,5 +1,6 @@
 function solve() {
     document.querySelector("form").addEventListener("submit", onSubmit);
+    // document.getElementById("add").addEventListener("click", onSubmit);
 
     let taskRef = document.getElementById("task");
     let descriptionRef = document.getElementById("description");
